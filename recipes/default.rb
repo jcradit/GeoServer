@@ -1,5 +1,3 @@
-
-
 file '/etc/yum.repos.d/OpenGeo.repo' do
   content '
     [opengeo]
