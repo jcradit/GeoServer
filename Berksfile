@@ -1,3 +1,4 @@
-source "https://api.berkshelf.com&quot;
+source "https://api.berkshelf.com";
 
+metadata
 cookbook "aws", ">= 2.2.2"
