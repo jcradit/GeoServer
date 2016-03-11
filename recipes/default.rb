@@ -15,7 +15,7 @@ template '/etc/yum.repos.d/OpenGeo.repo' do
     mode '0755'
   end
 
-package 'opengeo-server' do
+yum_package 'opengeo-server' do
   action [:install]
 end
 
@@ -28,6 +28,6 @@ bash 'unzipCopyMrSID' do
 end
 
 
-package 'gdal-mrsid' do
+yum_package 'gdal-mrsid' do
   action [:install]
 end
