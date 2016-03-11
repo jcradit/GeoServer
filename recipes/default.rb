@@ -1,6 +1,6 @@
 
 
-remote_file 'geoserver-2.8.1-gdal-plugin.zip' do
+remote_file '/opt/geoserver-2.8.1-gdal-plugin.zip' do
   source 'https://sourceforge.net/projects/geoserver/files/GeoServer/2.8.1/extensions/geoserver-2.8.1-gdal-plugin.zip'
   owner 'ec2-user'
   group 'ec2-user'
