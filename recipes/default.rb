@@ -22,8 +22,8 @@ end
 bash 'unzipCopyMrSID' do
   cwd '/opt'
   code <<-EOH
-    sudo unzip geoserver-2.8.1-gdal-plugin.zip -d geoserver-2.8.1-gdal-plugin
-    sudo cp geoserver-2.8.1-gdal-plugin/* /usr/share/opengeo/geoserver/WEB-INF/lib/
+    unzip geoserver-2.8.1-gdal-plugin.zip -d geoserver-2.8.1-gdal-plugin
+    cp geoserver-2.8.1-gdal-plugin/* /usr/share/opengeo/geoserver/WEB-INF/lib/
     EOH
 end
 
